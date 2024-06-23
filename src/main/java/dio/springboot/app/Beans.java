@@ -1,10 +1,9 @@
-package dio.springboot;
+package dio.springboot.app;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
-/*
 @Configuration
 public class Beans {
     @Bean
@@ -17,4 +16,3 @@ public class Beans {
         return remetente;
     }
 }
-*/
