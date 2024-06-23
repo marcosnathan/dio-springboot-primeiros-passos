@@ -2,7 +2,8 @@ package dio.springboot.orm_jpa.model;
 
 import jakarta.persistence.*;
 
-@Entity(name = "tb_user")
+@Entity
+@Table(name = "tb_users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
