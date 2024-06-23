@@ -3,7 +3,7 @@ package dio.springboot.app;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class MyApp implements CommandLineRunner {
 
     private final Calculadora calculadora;
